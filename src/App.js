@@ -32,7 +32,7 @@ function App() {
       <form className="app_searchForm" onSubmit={onSubmit} >
         <input type="text"
           className="app_input"
-          placeholder="enter ingridient"
+          placeholder="Enter Ingredient"
           value={query}
           onChange={(event) => setquery(event.target.value)} />
 
